@@ -1,25 +1,4 @@
-<img src="http://imgur.com/1ZcRyrc.png" style="float: left; margin: 20px; height: 55px">
+# Predicting Cervical Cancer: Seeking Connections Project Overview
 
-# Final Project Technical Notebook
+In this data science project, the focus is on predicting the likelihood of cervical cancer contraction, a preventable yet significant health threat. With approximately 11,000 new cases diagnosed annually in the U.S., societal influences and lifestyle patterns are explored as key factors. The goal is to empower women by developing a predictive model based on demographics, lifestyle habits, and medical records. The dataset, obtained from the Hospital Universitario de Caracas in Venezuela, includes 858 patients, though privacy concerns led to some '?' values. The study faces challenges such as a limited number of biopsy cases and potential bias in handling unanswered questions. The target variable, Biopsy (0 = no cancer, 1 = cancer), serves as a focal point for assessing predictive accuracy. The refined feature variables, encompassing age, sexual history, and medical conditions, underwent dummy encoding for analysis. Classification techniques, including Logistic Regression, Decision Tree, and Random Forest, were tested along with balancing techniques to address the imbalanced dataset. Evaluation metrics, emphasizing both precision and recall, guide the model development, and hyperparameter tuning ensures optimal performance. This project aims not only to predict cervical cancer risk but also to inform and raise awareness based on individual lifestyle patterns.
 
-## Overview
-
-Develop the best predictive model you can for the problem you've chosen, and document your work in a technical notebook that can be shared with your peers.
-
-## Deliverables
-
-In one or more Jupyter notebooks, iterate on your model, using the insights you got from exploring the data to guide your efforts. Systematically test different model types, hyperparameter settings, combinations of features, and feature engineering procedures. Evaluate each variation you try by measuring performance with an appropriate and consistent metric using train/test splits or cross-validation. Compare training-set performance to test-set performance to assess whether your model is underfitting or overfitting, and make it more or less complex as appropriate. Once you have your final model, see what insights you can get into how it works, e.g. by looking at coefficient values or tree diagrams. At a minimum, what are its most important features?
-
-Take care to choose a regression model and metric if you are predicting a number, and a classification model and metric if you are predicting a category.
-
-The notebooks you use to develop your model will likely contain many errors and false starts. Create one notebook titled `final_project_report.ipynb` that walks us through your process and findings without all of that cruft. Create well formatted sections, headers, and descriptions in markdown. Make your code as clean as you can, for instance by giving your variables descriptive names and writing functions for steps that you find yourself carrying out repeatedly. Include comments to explain why you made choices that might otherwise be puzzling.
-
-If you are in the competition track, submit your first-pass model to the competition and provide a link to your submission in your notebook.
-
-Submit your project following the instructions in the Course Info document for your cohort.
-
-**BONUS:** Post your notebook on the Kaggle competition.
-
-## Examples
-
-See an example of a past submission [here](./notebook_example.ipynb), but note that the instructions for your cohort might be slightly different from the instructions that this student was following.
